@@ -1,0 +1,17 @@
+body {
+  background-color: #ff9966;
+}
+
+main {
+  width: 100%;
+}
+
+ .container-box {
+   min-width: 320px;
+   width: 60%;
+   height: 450px;
+   margin:  20% auto;
+   border-radius: 4px;
+   background-color: #84d6ff;
+   text-align: center;
+ }
