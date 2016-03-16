@@ -1,5 +1,6 @@
 body {
-  background-color: #ff9966;
+  background-color: #white;
+  font-family: 'Lato', sans-serif;
 }
 
 main {
@@ -8,10 +9,40 @@ main {
 
  .container-box {
    min-width: 320px;
-   width: 60%;
+   max-width: 400px;
+   width: 45%;
    height: 450px;
    margin:  20% auto;
-   border-radius: 4px;
-   background-color: #84d6ff;
+   border-radius: 8px;
+   background-color: #ff884d;
    text-align: center;
  }
+
+h1 {
+  font-size: 1.75em;
+  padding: 30px;
+}
+
+input {
+  display: block;
+  margin: 15px auto;
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #5bb7e5;
+  font-size: 1.05em;
+}
+
+.input-check input {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+}
+
+label {
+  font-size: 1.1em;
+}
+
+.signup-button {
+  margin-top: 40px;
+  background-color: ;
+}

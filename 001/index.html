@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>Sign Up - Daily UI #001 by Nick Kramer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,11 +17,14 @@
     <h1>Sign Up</h1>
 
     <form>
-      <input type="textbox" placeholder="E-mail" id="email" required/>
+      <input type="email" placeholder="E-mail" id="email" required/>
       <input type="textbox" placeholder="Username" id="username" required/>
-      <input type="textbox" placeholder="Password" id="password" required/>
-      <input type="checkbox" id="newsletter-box"><label for="newsletter-box">Sign up for our weekly newsletter</label>
-      <input type="button" value="Sign Up">
+      <input type="password" placeholder="Password" id="password" required/>
+      <div class="input-check">
+        <input type="checkbox" id="newsletter-box" />
+        <label for="newsletter-box">Sign up for our weekly newsletter</label>
+      </div>
+      <input type="button" class="signup-button" value="Sign Up">
     </form>
 
 
