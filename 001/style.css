@@ -1,6 +1,7 @@
 body {
-  background-color: #white;
+  background-color: #b3cde0;
   font-family: 'Lato', sans-serif;
+  color: white;
 }
 
 main {
@@ -14,7 +15,7 @@ main {
    height: 450px;
    margin:  20% auto;
    border-radius: 8px;
-   background-color: #ff884d;
+   background-color: #03396c;
    text-align: center;
  }
 
@@ -28,8 +29,10 @@ input {
   margin: 15px auto;
   width: 70%;
   padding: 10px;
-  border: 1px solid #5bb7e5;
+  background-color: #005b96;
+  border: none;
   font-size: 1.05em;
+  border-radius: 10px;
 }
 
 .input-check input {
@@ -44,5 +47,14 @@ label {
 
 .signup-button {
   margin-top: 40px;
-  background-color: ;
+  color: white;
+  border: none;
+}
+
+.signup-button:hover {
+  background-color: #011f4b;
+}
+
+.signup-button:active {
+  background-color: #6497b1;
 }
