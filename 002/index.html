@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <title>Credit Card Checkout - Daily UI #002 by Nick Kramer</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,42 +16,40 @@
     <h1>Check Out</h1>
 
     <form>
-      <div class="row card-row">
-        <input type="textbox" class="col-xs-3 c-number card-number-1"/>
-        <input type="textbox" class="col-xs-3 c-number card-number-2"/>
-        <input type="textbox" class="col-xs-3 c-number card-number-3"/>
-        <input type="textbox" class="col-xs-3 c-number card-number-4"/>
+      <input type="textbox" class="card-number" placeholder="Card Number"/>
+      <input type="textbox" class="name" placeholder="Cardholder Name" />
+      <div class="expiration-date">
+        <select name="month">
+          <option value="none">Month</option>
+          <option value="jan">January</option>
+          <option value="feb">February</option>
+          <option value="mar">March</option>
+          <option value="apr">April</option>
+          <option value="may">May</option>
+          <option value="june">June</option>
+          <option value="july">July</option>
+          <option value="aug">August</option>
+          <option value="sept">September</option>
+          <option value="oct">October</option>
+          <option value="nov">November</option>
+          <option value="dec">December</option>
+        </select>
+        <select name="year">
+          <option value="none">Year</option>
+          <option value="16">2016</option>
+          <option value="17">2017</option>
+          <option value="18">2018</option>
+          <option value="19">2019</option>
+          <option value="20">2020</option>
+          <option value="21">2021</option>
+          <option value="22">2022</option>
+          <option value="23">2023</option>
+          <option value="24">2024</option>
+        </select>
       </div>
-      <input type="textbox" class="name col-sm-6 col-xs-12" placeholder="Cardholder Name" />
-      <select name="month">
-        <option value="none">Month</option>
-        <option value="jan">January</option>
-        <option value="feb">February</option>
-        <option value="mar">March</option>
-        <option value="apr">April</option>
-        <option value="may">May</option>
-        <option value="june">June</option>
-        <option value="july">July</option>
-        <option value="aug">August</option>
-        <option value="sept">September</option>
-        <option value="oct">October</option>
-        <option value="nov">November</option>
-        <option value="dec">December</option>
-      </select>
-      <select name="year">
-        <option value="none">Year</option>
-        <option value="16">2016</option>
-        <option value="17">2017</option>
-        <option value="18">2018</option>
-        <option value="19">2019</option>
-        <option value="20">2020</option>
-        <option value="21">2021</option>
-        <option value="22">2022</option>
-        <option value="23">2023</option>
-        <option value="24">2024</option>
-      </select>
       <input type="textbox" maxlength="3" class="ccv" placeholder="CCV" />
-      <input type="button" value="Complete Order"/>
+
+      <input type="button" value="Complete Order" class="complete-button"/>
     </form>
 
   </div>
