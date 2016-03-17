@@ -1,0 +1,46 @@
+body {
+  background-color: #5ba5a4;
+}
+
+main {
+  width: 100%;
+}
+
+.container-box {
+  min-width: 320px;
+  max-width: 450px;
+  width: 100%;
+  height: 300px;
+  margin: 20% auto;
+  background-color: #6c355c;
+}
+
+form {
+  width: 80%;
+  margin: auto;
+}
+
+form input {
+  display: block;
+  margin: 10px 0;
+}
+
+.name {
+  width: 100%;
+}
+
+.card-row {
+  width: 100%;
+  margin: auto;
+}
+
+.c-number {
+  margin: 10px
+  display: inline-block;
+}
+
+.ccv {
+  display: inline-block;
+  width: 55px;
+  align: right;
+}
