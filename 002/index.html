@@ -6,6 +6,7 @@
   <title>Credit Card Checkout - Daily UI #002 by Nick Kramer</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
   <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -16,9 +17,10 @@
     <h1>Check Out</h1>
 
     <form>
-      <input type="textbox" class="card-number" placeholder="Card Number"/>
+      <input type="textbox" class="card-number" maxlength="16" placeholder="Card Number"/>
       <input type="textbox" class="name" placeholder="Cardholder Name" />
       <div class="expiration-date">
+        <p class="expire-text">Expiration Date</p>
         <select name="month">
           <option value="none">Month</option>
           <option value="jan">January</option>
