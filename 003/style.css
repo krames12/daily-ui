@@ -1,14 +1,17 @@
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #F7FFFF;
+  color: #0B0664;
 }
 
 main {
-  position: relative;
-  border-bottom: 3px solid #626782;
+  border-top: 3px solid #79C6FE;
+  border-bottom: 3px solid #79C6FE;;
   max-width: 1024px;
   width: 80%;
   height: 400px;
-  margin: 20% auto 0 auto;
+  margin: 10% auto 0 auto;
+  padding: 20px;
 }
 
 h1 {
@@ -22,12 +25,12 @@ h4 {
 
 .text-intro {
   width: 70%;
-  margin: 10% auto;
+  margin: 5% auto;
   text-align: center;
 }
 
 .more-info {
-  margin: 15% auto;
+  margin: 10% auto;
 }
 
 input {
@@ -37,12 +40,26 @@ input {
 
 #email {
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #79C6FE;
   width: 300px;
   font-size: 1.2em;
+  padding: 5px;
 }
 
 #sign-up {
   margin-top: 20px;
   font-size: 1.3em;
+  background-color: #F7FFFF;
+  padding: 10px;
+  border: 1px solid #79C6FE;
+  transition: all 0.1s ease-in-out;
+}
+
+#sign-up:hover {
+  color: white;
+  background-color: #79C6FE;
+}
+
+#sign-up:active {
+  background-color: #60A2D1;
 }
