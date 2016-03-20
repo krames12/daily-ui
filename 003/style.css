@@ -41,6 +41,7 @@ input {
 #email {
   border: none;
   border-bottom: 1px solid #79C6FE;
+  background-color: #F7FFFF;
   width: 300px;
   font-size: 1.2em;
   padding: 5px;
