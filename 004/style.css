@@ -1,20 +1,28 @@
 body {
-
+  #background-color: #000000;
 }
 
 #calculator_container {
-  min-width: 320px;
-  width: 20%;
-  margin: 5% auto;
-
+  width: 318px;
+  height: 100%;
+  margin: 10% auto;
+  border: 1px solid #757575;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
 }
 
 .output {
+  z-index: 10;
   margin: auto;
-  width: 100%;
+  width: 98%;
+  font-size: 2em;
+  padding: 5px 0;
+  border: none;
+  text-align: right;
 }
 
 .button_container {
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -23,10 +31,40 @@ body {
 .calc_button {
   display: flex;
   margin: 0;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  background-color: #c7d3b7;
+  width: 25%;
+  height: 75px;
+  background-color: #03A9F4;
+  color: white;
   justify-content: center;
   align-items: center;
+  font-size: 1.5em;
+}
+
+.calc_button:active {
+  background-color: #039BE5;
+}
+
+.clear_buttons {
+  width: 37.5%;
+}
+
+.zero {
+  width: 75%;
+}
+
+.equals {
+  width: 100%;
+  background-color: #673AB7;
+}
+
+.equals:active {
+  background-color: #5E35B1;
+}
+
+.operation_button {
+  background-color: #0288D1;
+}
+
+.operation_button:active {
+  background-color: #0277BD;
 }
